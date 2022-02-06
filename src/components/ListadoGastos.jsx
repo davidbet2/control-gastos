@@ -12,7 +12,7 @@ export const ListadoGastos = ({
     <div className='listado-gastos contenedor'>
       {filtro ? (
         <>
-          <h2>{gastosFiltrados.length ? 'Gastos' : 'No hay gastos ene sta categoria'}</h2>
+          <h2>{gastosFiltrados.length ? 'Gastos' : 'No hay gastos en esta categoria'}</h2>
           {gastosFiltrados.map((gasto) => (
             <Gasto
               key={gasto.id}
